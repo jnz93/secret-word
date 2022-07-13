@@ -1,11 +1,12 @@
 import './App.css';
+import StartScreen from './components/StartScreen';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Secret Word - GameShow</h1>
-    </div>
-  );
+    return (
+        <div className="App">
+            <StartScreen />
+        </div>
+    );
 }
 
 export default App;
